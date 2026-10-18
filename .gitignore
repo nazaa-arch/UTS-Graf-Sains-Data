@@ -1,0 +1,22 @@
+# Virtual environment
+myvenv/
+.venv/
+__pycache__/
+*.pyc
+
+# Neo4j server files & downloads
+neo4j-community.zip
+neo4j-community-5.26.0/
+
+# Raw dataset (keep only events_filtered.csv)
+data/events.csv
+
+# Temporary test scripts
+test_*.py
+import_p1.py
+run_experiments.py
+build_and_run_notebook.py
+check_form.py
+make_realistic_history.py
+create_git_history.py
+nb_step*.ipynb
